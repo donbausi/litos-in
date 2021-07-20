@@ -1,0 +1,70 @@
+/*!
+ * webmedia-systems.de Frank Durchstecher
+ * Version - 0.1
+ * 
+ * Copyright (c) Frank Durchstecher
+ */
+
+/* font area */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/* start area */
+
+html{
+
+    overflow-y:scroll;
+    overflow-x:hidden;
+    -ms-overflow-style: scrollbar;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+    /* background-image: url("./../img/strand.jpg"); */
+    /* background-image: url("./../img/lampe.jpg"); */
+    background-image: url("./../img/fenster.jpg");
+    background-size: cover;
+    background-color: #000;
+    color: #b45f79;
+    font-weight: 700;
+}
+
+.headcontent{
+    -webkit-box-shadow: 0 0 10px 0 #3347FF;
+    box-shadow: 0 0 10px 0 #3347FF;
+    background-color: antiquewhite;
+    border-left: 2px solid saddlebrown;
+    width:100%;
+    float:left;
+
+}
+.contenticon{
+    
+    width:20px;
+    height:25px;
+    float:left;
+
+}
+.contentname{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding:18px;
+    float:left;
+}
+    /* Modify the background color */
+        
+.container-fluid{
+    /*background-color: #fff;*/
+    color: green;
+}
+/* Modify brand and text color */
+    
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: green;
+}
+.p{
+    font-size: 20;
+    float:right;
+}
