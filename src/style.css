@@ -1,0 +1,77 @@
+/*!
+ * webmedia-systems.de Frank Durchstecher
+ * Version - 0.1
+ * 
+ * Copyright (c) Julian Durchstecher
+ */
+
+/* font area */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/* start area */
+
+
+html{
+
+    overflow-y:scroll;
+    overflow-x:hidden;
+    -ms-overflow-style: scrollbar;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    /* background-image: url("./../img/marvin-meyer-SYTO3xs06fU-unsplash.jpg"); */
+    /* free picture from marvin meyer @ unsplash.com date 25.07*/
+    background-image: url("./../img/pexels-andrew-neel-3178818.jpg");
+    /* Photo by Andrew Neel from Pexels */
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    color: #32b6b6;
+    font-weight: 700;
+}
+.btn-primary{
+    color: #32b6b6;
+    background-color: #fff;
+    font-weight: 400;
+}
+.container-fluid{
+    margin:auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.container-fluid-2{
+    float:right;
+}
+.headRIGHT{
+    float:left;
+}
+.header{
+    padding:20px;
+}
+.container-fluid a {
+    color:aqua;
+    /* border: 1px solid #32b6b6; */
+}
+.nav-link.active{
+    border: 1px solid #32b6b6;
+}
+.untereBar li a{
+    color:#32b6b6;
+
+}
+.untereBar ul{
+    color:#32b6b6;
+    background-color: aliceblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #32b6b6;
+}
+.untereBar ul a{
+    align-items: center;
+}
