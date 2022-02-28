@@ -1,0 +1,125 @@
+<!--  webmedia-systems.de Frank Durchstecher
+      Version - 0.1
+      Copyright (c) Julian Durchstecher -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>WebMedia - Kontakt</title>
+
+    <!-- FAVICON-->
+    <link rel="icon" href="./../img/favicon.png" sizes="32x32" type="image/png">
+
+    <!-- ICONS & styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="./../css/style.css"  rel="stylesheet" data-purpose="Layout StyleSheet" title="Default">
+    <script src="https://kit.fontawesome.com/5c9232bba8.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>    
+    <!-- obere Leiste -->
+    <div class= header id="hl">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a href="litosIn.html" target="_self">
+            <img src="./../img/logo.jpg"   alt="WM Logo" width="300" height="90" class="logo">
+          </a>
+          </div>
+        <div class="container-fluid-2">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="service.html">Unser Angebot</a>
+              </li>
+              <!--li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Kontakt</a>
+              </li-->
+            </ul>
+            <!--form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="suche..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Suche</button>
+            </form-->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br> 
+    <!-- obere Leiste ENDE -->
+
+    <!-- Email Input -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">  
+          <div class="mb-3" >
+            <div class="row">
+              <form class="form-check-inline justify-content-center" action="send-mail.php" method="POST" enctype="multipart/form-data" role="form">
+                <div class="col">
+                  <label for="exampleFormControlInput1" class="form-label">Email Addresse</label>
+                  <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@beispiel.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Dein Text an uns:</label>
+                  <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="col-6">
+                    <br>
+                  <button type="submit" class="btn btn-primary mb-3"><strong>Nachricht abschicken</strong></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>      
+        </div>
+
+        <!-- Info Card Kontakt-->
+        <div class="col-md-3">
+          <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">WebMedia-Systems</div>
+            <div class="card-body">
+              <p class="card-title"><strong>Frank Durchstecher</strong></p>
+              <h5 class="card-text"><strong>Angaben gemäß § 5 TMG: 
+                <br>Peter-Huchel-Chaussee
+                <br>14552 Michendorf
+                <br>Telefon: +49 (0) 33205 607 407
+                <br>Telefax: +49 (0) 33205 607 405
+                <br><a href="mailto:support@webmedia-systems.de">support@webmedia-systems.de</a>
+              </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Info Card Ende-->
+      </div>
+    </div--> 
+
+    <!-- untere BAR -->
+    <div class="untereBar">
+      <ul class="nav fixed-bottom justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Unser Angebot</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./impressum.html">Impressum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./datenschutz.html">Datenschutz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./litosIn.html">WebMedia</a>
+        </li>
+      </ul>
+    </div>
+    <!-- untere BAR  ENDE -->   
+<!-- CONTENT ENDE -->
+<!-- bootstrap Einbindung hinterer Teil -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
